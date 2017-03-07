@@ -1,11 +1,11 @@
-# ZZBindDemo_2
-绑定视图和模型，用于通过简单统一的代码让视图的值填充到模型中
+//
+//  ViewController.m
+//  BindModelDemo
+//
+//  Created by 刘威振 on 2017/2/15.
+//  Copyright © 2017年 刘威振. All rights reserved.
+//
 
-#### 使用方法####
-
-把`ZZBindBaseModel`和`NSObject+ZZModelDriven`两个类拖入工程：
-
-```objective-c
 #import "ViewController.h"
 #import "NSObject+ZZModelDriven.h"
 #import "StudentModel.h"
@@ -59,9 +59,3 @@
 }
 
 @end
-```
-
-注意事项：
-
-控制器当接受协议`ZZModelDrivenDelegate`并实现里面的方法`getModel`, 这个方法里返回的对象即是要填充的对象
-
