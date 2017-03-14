@@ -1,0 +1,10 @@
+target 'BindDemo' do
+
+pod 'ReactiveCocoa’,' ~> 2.5' 
+
+pod 'MJExtension'
+
+
+end
+
+use_frameworks!

@@ -27,7 +27,6 @@
  
     self.student = [[StudentModel alloc] init];
     
-    
     // usernameField.text -> self.student.username
     self.autoBind(self.usernameField, @"text", @"username");
     
